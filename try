@@ -1,0 +1,10 @@
+while True:
+  
+    inputYesNo = input("Do you want to continue? (type yes/no) : ")
+    if(inputYesNo == "Yes"):
+        print("Success")
+        break
+    else:
+        print("Input only yes or no")
+        continue
+
